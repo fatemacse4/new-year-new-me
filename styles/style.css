@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    padding: 20px 25px;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 8px;
+    height: 64px;
+    margin-bottom: 166px;
+    margin-right: 230px;
+}
+
+/* Banner Styles */
+
+.header{
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.banner{
+    height: 1000px;
+    text-align: right;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    padding-top: 300px;
+    margin-bottom: 28px;
+    margin-right: 230px;
+    margin-left: 845px;
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    margin-left: 876px;
+    margin-right: 230px;
+}
+
+/* Main Section */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section{
+    margin-top: 130px;
+}
+
+/* Failure Styles */
+
+.failure{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.failure-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 87px;
+}
+
+.failure .section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.failure .section-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.failure-point{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+/* My Plans Styles */
+
+.plans .section-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 86px;
+}
+
+.plan{
+    text-align: center;
+}
+
+img{
+    margin-bottom: 24px;
+}
+
+.section-sub-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.section-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-bottom: 136px;
+}
+
+/* Positive Mindset Styles */
+
+.Positive-Mindset{
+    background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+.mindset .section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 59px;
+    margin-bottom: 24px;
+    margin-left: 64px;
+}
+
+.mindset .btn-primary{
+    margin-left: 64px;
+    margin-bottom: 59px;
+}
+
+/* Contact Styles */
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #151414;
+    padding: 130px 230px;
+}
+
+.contact-info .section-title{
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 130px;
+    margin-bottom: 16px;
+}
+
+.contact-info .section-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.contact-info .contact-email{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.contact-info .contact-phone{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.contact-info a{
+    text-decoration: none;
+    margin-right: 18px;
+}
+
+.contact-subscribe .section-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+    padding-top: 130px;
+}
+
+.contact-subscribe input{
+    margin-bottom: 24px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    width: 100%;
+    height: 64px;
+    padding: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    background: #151414;
+}
+
+.contact-subscribe .btn-primary-blue{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    background: #005FAC;
+    border: 0;
+    border-radius: 8px;
+    height: 64px;
+    margin-bottom: 166px;
+    margin-right: 230px;
+}
+
+
+
+
+
+
+
