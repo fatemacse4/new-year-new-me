@@ -89,11 +89,39 @@ section{
 }
 
 .failure-point{
+    display: flex;
+    gap: 10px;
     font-weight: 400;
     font-size: 16px;
     color: #444343;
     margin-bottom: 8px;
 }
+
+/* Quotes Styles*/
+
+.quotes{
+    background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%), url('../images/girl.jpg');
+    text-align: center;
+    padding: 140px 130px;
+    border-right: 8px solid #012544;
+    border-bottom: 8px solid #012544;
+    box-shadow: 10px 5px 5px #c2c2c3;
+    border-radius: 8px;
+}
+
+.quotes .section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.quotes .btn-primary{
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+
 
 /* My Plans Styles */
 
@@ -137,9 +165,7 @@ img{
 /* Positive Mindset Styles */
 
 .Positive-Mindset{
-    background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
-
-    border-radius: 8px;
+    background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');border-radius: 8px;
     margin-bottom: 130px;
 }
 
@@ -206,7 +232,7 @@ img{
     font-size: 25px;
     color: #FFFFFF;
     margin-bottom: 31px;
-    padding-top: 130px;
+    margin-top: 210px;
 }
 
 .contact-subscribe input{
